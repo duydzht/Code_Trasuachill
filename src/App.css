@@ -1,0 +1,315 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.bannerimg {
+    background: url(https://tourdulichuytin.com/images/tin-tuc/hinh-moi/nhung-la-tra-tuoi-ngon-tai-doi-che-long-coc.jpg) no-repeat;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+
+.text-bannerimg {
+    color: #055229;
+    text-align: center;
+}
+
+.form-control:hover {
+    box-shadow: 0px 2px 1.5px 0px #ccc;
+    border: 1px solid rgb(19, 102, 57) !important;
+}
+
+.btn-menu-search {
+    border: 2px solid white !important;
+    background: rgba(15, 102, 36, 0.7) !important;
+    color: white !important;
+    width: 150px !important;
+}
+
+.btn-menu-search:hover {
+    background: #FFF !important;
+    color: black !important;
+    border: 2px solid black !important;
+}
+
+.btn-bannerimg-prods {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+.btn-bannerimg-prods:hover {
+    background: #FFF;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-menu-route {
+    background: rgba(19, 85, 30, 0.7);
+    border: 2px solid white;
+    color: white;
+    width: 200px;
+    margin: auto;
+}
+
+.btn-menu-route:hover {
+    background: #FFF;
+    color: black;
+    border: 2px solid black;
+}
+
+.slides {
+    font-size: 30px;
+}
+
+.card-prods:hover {
+    background-color: rgba(40, 182, 104, 0.596);
+    box-shadow: 3px 3px 2px 2px #ccc;
+}
+
+.card-prods {
+    box-shadow: 0px 2px 1.5px 0px #ccc;
+}
+
+.card-title-menu {
+    font-family: 'Gluten', cursive;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+
+.font-text {
+    font-family: 'Gluten', cursive;
+}
+
+.menu-prod-like {
+    text-align: center;
+}
+
+.menu-prod-like-text {
+    color: #0a4426;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+.btn-menu-prods {
+    background: rgb(223, 101, 101);
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-menu-prods:hover {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer-page {
+    background: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/ft_bg_img.png) no-repeat center;
+    height: 430px;
+    color: #fff !important;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.footer-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    background: rgba(51, 51, 51, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+    /* .footer-main {
+        flex-wrap: wrap;
+    } */
+    .footer-page {
+        background: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/ft_bg_img.png) no-repeat center;
+        height: 800px;
+        color: #fff !important;
+        background-size: cover;
+        position: relative;
+        margin: 0px;
+        padding: 20px 0px 0px 20px;
+    }
+    .ft-img-banner {
+        border: 1px solid white;
+        border-radius: 20%;
+        margin-top: 70px;
+        padding: 30px 0px 30px 0px;
+        height: 150px !important;
+        width: 170px !important;
+    }
+    .footer-cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+        background: rgba(51, 51, 51, 0.8);
+        padding-left: 40px;
+    }
+}
+
+.ft-title-text {
+    font-family: 'Pacifico', cursive;
+    color: #d0dd1d;
+    padding: 70px 0px 30px 0px;
+}
+
+.ft-img-banner {
+    border: 1px solid white;
+    border-radius: 20%;
+    margin-top: 70px;
+    padding: 30px 0px 30px 0px;
+    height: 270px;
+    width: 300px;
+}
+
+.navbar-dark {
+    background-color: #282828;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+
+/* Home */
+
+.home-link {
+    margin: auto;
+}
+
+.btn-home-more {
+    background-color: #055229;
+    margin: auto;
+    border: 2px solid white;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.align-btn {
+    text-align: center;
+}
+
+.btn-home-more:hover {
+    background-color: #fbfcfb;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(19, 70, 39);
+}
+
+.home-body-img {
+    background: url(/images/b.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.home-body-img-text {
+    color: white;
+    /* position: absolute;
+    top: 200px;
+    left: 800px; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+.home-body-text {
+    color: #7ea317;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+.home-btn-image {
+    border: 1px solid black;
+    background-color: rgb(147, 240, 170);
+    color: #282828;
+}
+
+.home-btn-image:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.home-body-img2 {
+    background: url(/images/c.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.home-body-img-text2 {
+    color: rgb(201, 236, 45);
+    /* position: absolute;
+    top: 130px;
+    right: 800px; */
+    text-align: center;
+    padding-top: 120px;
+}
+
+.home-body-text2 {
+    color: #475e09;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+.home-btn-image2 {
+    border: 2px solid rgb(8, 85, 12);
+    background-color: rgba(163, 197, 9, 0.356);
+    color: #043d0c;
+}
+
+.home-btn-image2:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(8, 95, 12);
+    color: #8cd1a1;
+}
